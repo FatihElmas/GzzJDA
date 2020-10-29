@@ -12,5 +12,7 @@ public @interface CommandParams {
     String[] aliases();
     String name();
     Permission[] permissions() default {};
+    boolean status() default true;
+    int cooldown() default 0;
 
 }

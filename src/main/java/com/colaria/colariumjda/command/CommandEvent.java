@@ -9,14 +9,16 @@ public class CommandEvent {
     private final User user;
     private final Guild guild;
     private final Member member;
+    private final int cooldown;
 
-    public CommandEvent(TextChannel channel, Message message, String[] args, User user, Guild guild, Member member) {
+    public CommandEvent(TextChannel channel, Message message, String[] args, User user, Guild guild, Member member, int cooldown) {
         this.channel = channel;
         this.message = message;
         this.args = args;
         this.user = user;
         this.guild = guild;
         this.member = member;
+        this.cooldown = cooldown;
     }
 
     public TextChannel getChannel() {
@@ -41,5 +43,9 @@ public class CommandEvent {
 
     public User getUser() {
         return user;
+    }
+
+    public int getCooldownLeft() {
+        return cooldown;
     }
 }
