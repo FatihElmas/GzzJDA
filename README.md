@@ -2,7 +2,7 @@
 A excellent, basic utility for your cool JDA (Java Discord API) Bots with A++ Code Quality.
 
 ## Usage
-Utility usages...
+Usage for GzzJDA
 ### Commands
 ```java
 @CommandParams(
