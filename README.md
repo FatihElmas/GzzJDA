@@ -1,5 +1,5 @@
 # GzzJDA
-A excellent, basic utility for your cool JDA (Java Discord API) Bots with A++ Code Quality.
+A excellent, basic utility for your cool JDA (Java Discord API) Bots.
 
 ## Usage
 Usage for GzzJDA
